@@ -23,7 +23,7 @@
 #
 
 from wishbone.event import Event
-from wishbone.module.jsonvalidate import JSONValidate
+from wishbone_flow_jsonvalidate import JSONValidate
 from wishbone.actor import ActorConfig
 from wishbone.utils.test import getter
 import os

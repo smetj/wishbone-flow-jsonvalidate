@@ -1,3 +1,5 @@
+::
+
               __       __    __
     .--.--.--|__.-----|  |--|  |--.-----.-----.-----.
     |  |  |  |  |__ --|     |  _  |  _  |     |  -__|
@@ -11,7 +13,7 @@
     wishbone.flow.jsonvalidate
     ==========================
 
-    Version: 0.1.0
+    Version: 1.0.0
 
     Validates JSON data against JSON-schema.
     ----------------------------------------
@@ -38,4 +40,3 @@
 
             - outbox
                |  Outgoing messges
-

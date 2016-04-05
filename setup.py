@@ -26,8 +26,8 @@ from setuptools import setup, find_packages
 from setuptools.command.test import test as TestCommand
 import sys
 
-PROJECT = 'wishbone_flow_jsonvalidate'
-VERSION = '0.1.0'
+PROJECT = 'wishbone-flow-jsonvalidate'
+VERSION = '1.0.0'
 
 install_requires = [
     'wishbone>=2.1.1',
@@ -39,6 +39,7 @@ try:
         long_description = f.read()
 except IOError:
     long_description = ''
+
 
 
 class PyTest(TestCommand):
